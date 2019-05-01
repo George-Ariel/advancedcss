@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Lora'); /* imports the font and allows it to be used */
+
+
+
+/* Figuring out overall fonts here */
+
+h1, h2 {
+    font-family: 'Lora', serif;
+}
+
+p, li, .post-date {
+    font-family: Helvetica, Arial, sans-serif; 
+    max-width: 30em;
+}
+
+
+
+/* Header styles */
+
+header {
+    background-color: #6495ED;
+    color: #FAEBD7;
+}
+
+h1 {
+    text-decoration: none;
+    color: #FAEBD7;
+}
+header li {
+    list-style-type: none;
+}
+
+header a:link {
+    text-decoration: none;
+    color: #FAEBD7;
+}
+
+header a:visited {
+    text-decoration: none;
+    color: #FAEBD7;
+}
+
+header a:active {
+    text-decoration: none;
+    color: #DEB887;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+
+
+/* Main styles */
+
+main {
+    background-color: #FAEBD7;
+}
+
+.post-date {
+    color: grey;
+}
+
+/* Article title page links */
+h2 a:link {
+    text-decoration: none;
+    color:black;
+}
+
+h2 a:visited {
+    text-decoration: none;
+    color:black;
+}
+
+h2 a:active {
+    color:#DEB887;
+}
+
+h2 a:hover {
+    text-decoration: underline;
+    color:#6495ED;
+}
+
+/* Other page links */
+a:link {
+    text-decoration: none;
+    color:#6495ED;
+}
+
+a:visited {
+    text-decoration: none;
+    color:#6495ED;
+}
+
+a:active {
+    color:#DEB887;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column;
+    padding: 3em;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    margin: 3em;
+}
+
+
+
+
+/* For Moblie */
+@media all and (max-width: 500px) {
+main {
+    flex-direction: column;
+}
+
+}
