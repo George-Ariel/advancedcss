@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lora'); /* imports the font and allows it to be used */
 
-
+/* Moblie First */
+@media all and (max-width: 500px) {
+    main {
+    }
 
 /* Figuring out overall fonts here */
 
@@ -20,6 +23,7 @@ p, li, .post-date {
 header {
     background-color: #6495ED;
     color: #FAEBD7;
+    max-width: 100%;
 }
 
 h1 {
@@ -105,31 +109,53 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 100%;
 }
 
 article {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-color: white;
-    flex-direction: column;
     padding: 3em;
+    margin: 4em;
 }
 
-figure {
-    display: flex;
-    justify-content: center;
-    height: auto;
-    width: 100%;
-    margin: 3em;
+img {
+    max-width: 100%;
+    margin: auto;
+    padding-top: 2em;
+}
 }
 
 
+/* 
 
-
-/* For Moblie */
-@media all and (max-width: 500px) {
-main {
-    flex-direction: column;
+header {
+    background-color: #6495ED;
+    color: #FAEBD7;
+    max-width: 100%;
+    margin: left;
+    position: fixed;
 }
+ */
 
-}
+
+
+
+
+
+
+/* position fixed for the sidebar 
+
+margin left 
+
+set a width and then margin auto 
+
+
+
+*/
+
+
+
+
