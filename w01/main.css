@@ -138,6 +138,28 @@ header {
     margin: left;
     position: fixed;
 }
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 3em;
+    margin: 4em;
+}
+
+img {
+    max-width: 100%;
+    margin: auto;
+    padding-top: 2em;
+}
  */
 
 
